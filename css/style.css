@@ -54,3 +54,14 @@ h1, p {
 .button:hover {
   background: rgba(0, 0, 0, 0.7); /* Темнее при наведении */
 }
+
+.link {
+  color: #00FF7F; /* Светлый изумрудный для кликабельного текста */
+  text-decoration: underline;
+  transition: color 0.3s;
+}
+
+.link:hover {
+  color: #00CC66; /* Тёмнее при наведении */
+  text-decoration: none;
+}
