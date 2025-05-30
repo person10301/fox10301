@@ -1,7 +1,7 @@
-# Witalixia
-Лучшая девушка на планете🌍
+# Fox10301
+Listen and enjoy AURORA in [YouTube](https://youtube.com/@auroramusic).
+<a href="https://youtube.com/@auroramusic" class="button">AURORA(YouTube)</a>
+![AURORA](https://raw.githubusercontent.com/person10301/fox10301/refs/heads/main/Photos/auroramusic-2eovv943njne1.jpg)
 
-![Witalixia](https://raw.githubusercontent.com/person10301/fox10301/refs/heads/main/images/IMG_20240823_164749_005.jpg)
-
-- [x] Поймать
-- [ ] Оформить брак
+- [x] Run the process of self -destruction
+- [ ] Complete the procedure for self -destruction
