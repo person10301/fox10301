@@ -1,7 +1,7 @@
-# fox10301
-Listen and enjoy AURORA in [YouTube](https://youtube.com/@auroramusic).
+# Witalixia
+Best girl on the planet
 <a href="https://youtube.com/@auroramusic" class="button">AURORA(YouTube)</a>
-![AURORA](https://raw.githubusercontent.com/person10301/fox10301/refs/heads/main/Photos/auroramusic-2eovv943njne1.jpg)
+![AURORA](https://github.com/person10301/fox10301/blob/main/images/IMG_20240823_164749_005.jpg)
 
-- [x] Run the process of self -destruction
-- [ ] Complete the procedure for self -destruction
+- [x] Catch it
+- [ ] Make a marriage
