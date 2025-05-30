@@ -39,7 +39,7 @@ h1, p {
 .button {
   background: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон */
   backdrop-filter: blur(10px); /* Размытие */
-  border-radius: 90%; /* Круглые кнопки */
+  border-radius: 10px; /* Круглые кнопки */
   width: 60px; /* Размер кнопки */
   height: 60px; /* Размер кнопки */
   display: flex;
