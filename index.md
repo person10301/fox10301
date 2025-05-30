@@ -7,8 +7,8 @@
 </head>
 <body>
   <div class="content">
-    <h1>Добро пожаловать на мой сайт!</h1>
-    <p>Это пример текста, который будет читабельным на размытом фоне.</p>
+    <h1>Person10301</h1>
+    <p>Listen and enjoy AURORA in [YouTube](https://youtube.com/@auroramusic)</p>
   </div>
   <div class="button-container">
     <a href="https://t.me/person10301" class="button"><i class="fab fa-telegram-plane"></i></a>
