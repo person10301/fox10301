@@ -1,7 +1,7 @@
 /* Стили для фонового изображения и размытия */
 body {
   /* Установка фонового изображения */
-  background-image: url('images/auroramusic-rlpne3wnyljb1.jpg');
+  background-image: url('https://raw.githubusercontent.com/person10301/fox10301/refs/heads/main/images/auroramusic-rlpne3wnyljb1.jpg');
   background-size: cover; /* Растягивает изображение на весь экран */
   background-position: center; /* Центрирует изображение */
   background-repeat: no-repeat; /* Запрещает повторение изображения */
