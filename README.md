@@ -1,5 +1,5 @@
 # fox10301
-This site was built using [GitHub Pages](https://pages.github.com/).
+Listen and enjoy Aurora in [YouTube](https://youtube.com/@auroramusic).
 
 ![AURORA](https://raw.githubusercontent.com/person10301/fox10301/refs/heads/main/Photos/auroramusic-2eovv943njne1.jpg)
 
