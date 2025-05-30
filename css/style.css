@@ -1,1 +1,19 @@
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: sans-serif;
+  padding: 20px;
+}
 
+a {
+  color: #4caf50;
+}
+
+h1, h2, h3 {
+  color: #4caf50;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+}
