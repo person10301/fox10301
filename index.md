@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<link rel="stylesheet" href="/fox10301/assets/css/custom.css">
+<link rel="stylesheet" href="/fox10301/custom.css">
 
 # Мой сайт
 
