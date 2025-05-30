@@ -8,7 +8,8 @@
 <body>
   <div class="content">
     <h1>Person10301</h1>
-    <p>Listen and enjoy AURORA in <a href="https://youtube.com/@auroramusic" class="link">YouTube</a></p>
+    <p>Listen and enjoy AURORA in <a href="https://youtube.com/@auroramusic" class="link">YouTube</a>
+    </p>
   </div>
   <div class="button-container">
     <a href="https://t.me/person10301" class="button"><i class="fab fa-telegram-plane"></i></a>
@@ -20,6 +21,9 @@
       </svg>
     </a>
     <a href="https://github.com/person10301" class="button"><i class="fab fa-github"></i></a>
+  </div>
+  <div class="ecology-message">
+    <p>Please, don't forget about Ecology 🌍</p>
   </div>
 </body>
 </html>
