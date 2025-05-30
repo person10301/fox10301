@@ -11,9 +11,9 @@
     <p>Это пример текста, который будет читабельным на размытом фоне.</p>
   </div>
   <div class="button-container">
-    <a href="https://t.me/your_telegram" class="button"><i class="fab fa-telegram-plane"></i></a>
-    <a href="https://vk.com/your_vk" class="button"><i class="fab fa-vk"></i></a>
-    <a href="https://4pda.to" class="button"><i class="fas fa-mobile-alt"></i></a>
+    <a href="https://t.me/person10301" class="button"><i class="fab fa-telegram-plane"></i></a>
+    <a href="https://vk.com/person10301" class="button"><i class="fab fa-vk"></i></a>
+    <a href="https://4pda.to/forum/index.php?showuser=9050872" class="button"><i class="fas fa-mobile-alt"></i></a>
     <a href="https://github.com/person10301" class="button"><i class="fab fa-github"></i></a>
   </div>
 </body>
