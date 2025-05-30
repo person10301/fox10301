@@ -1,6 +1,5 @@
 title: fox10301          # Название сайта (используется в <title>)
 description: Мой сайт     # Описание (можно отобразить где-то)
-baseurl: "/fox10301"     # ОБЯЗАТЕЛЬНО, если сайт не на корне, а в подпапке
 url: "https://person10301.github.io"  # Базовый URL
 
 markdown: kramdown       # Рендеринг markdown
