@@ -36,18 +36,18 @@
       content.style.animation = 'glitch-background 2s linear infinite';
       buttons.forEach(btn => btn.style.animation = 'button-glitch 2s linear infinite');
       message.style.animation = 'message-glitch 2s linear infinite';
-      // Случайные цвета
+      // Случайные яркие цвета
       const randomHue = Math.random() * 360;
-      content.style.color = `hsl(${randomHue}, 70%, 90%)`;
-      buttons.forEach(btn => btn.style.color = `hsl(${randomHue + 30}, 70%, 90%)`);
-      message.style.color = `hsl(${randomHue + 60}, 70%, 90%)`;
+      content.style.color = `hsl(${randomHue}, 80%, 70%)`;
+      buttons.forEach(btn => btn.style.color = `hsl(${randomHue + 60}, 80%, 70%)`);
+      message.style.color = `hsl(${randomHue + 120}, 80%, 70%)`;
     }
 
     setInterval(() => {
-      if (Math.random() > 0.1) { // 90% шанс запуска
+      if (Math.random() > 0.05) { // 95% шанс запуска
         triggerGlitch();
       }
-    }, Math.random() * 2000 + 2000); // 2-4 секунды
+    }, Math.random() * 1500 + 1500); // 1.5-3 секунды
   </script>
 </body>
 </html>
