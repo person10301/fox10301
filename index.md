@@ -1,14 +1,14 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <title>Мой сайт</title>
+  <title>Person10301</title>
   <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
   <div class="content">
     <h1>Person10301</h1>
-    <p>Listen and enjoy AURORA in <a href="https://youtube.com/@auroramusic" class="link">YouTube</a>
+    <p>Lis�en an� en�oy AURORA in <a href="https://youtube.com/@auroramusic" class="link">You�ube</a>
     </p>
   </div>
   <div class="button-container">
@@ -23,7 +23,7 @@
     <a href="https://github.com/person10301" class="button"><i class="fab fa-github"></i></a>
   </div>
   <div class="ecology-message">
-    <p><a href="https://news.mongabay.com/" class="link">Please, don't forget about Ecology🌍</a></p>
+    <p><a href="https://news.mongabay.com/" class="link">Pl�ase, do�'t for�et ab�ut Ecol�gy🌍</a></p>
   </div>
 </body>
 </html>
