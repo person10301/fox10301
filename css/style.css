@@ -1,5 +1,5 @@
 body {
-  background-image: url('https://raw.githubusercontent.com/person10301/fox10301/refs/heads/main/images/background.jpg');
+  background-image: url('images/background.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -32,37 +32,43 @@ h1, p {
 .button-container {
   display: flex;
   justify-content: center;
-  gap: 15px; /* Отступ между кнопками */
-  margin-top: 20px; /* Отступ от .content */
+  gap: 15px;
+  margin-top: 20px;
 }
 
 .button {
-  background: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон */
-  backdrop-filter: blur(10px); /* Размытие */
-  border-radius: 10px; /* Круглые кнопки */
-  width: 60px; /* Размер кнопки */
-  height: 60px; /* Размер кнопки */
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  width: 60px;
+  height: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white; /* Цвет иконки */
-  font-size: 24px; /* Размер иконки */
-  text-decoration: none; /* Убирает подчеркивание */
-  transition: background 0.3s; /* Плавное изменение фона */
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+  transition: background 0.3s;
 }
 
 .button:hover {
-  background: rgba(0, 0, 0, 0.7); /* Темнее при наведении */
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.custom-icon {
+  width: 28px;
+  height: 28px;
+  fill: currentColor;
 }
 
 .link {
-  color: #00FF7F; /* Светлый изумрудный для кликабельного текста */
+  color: #00FF7F;
   text-decoration: underline;
   transition: color 0.3s;
 }
 
 .link:hover {
-  color: #00CC66; /* Тёмнее при наведении */
+  color: #00CC66;
   text-decoration: none;
 }
 
@@ -82,3 +88,69 @@ h1, p {
   margin: 0;
 }
 
+/* Эффект глитча для h1 */
+.glitch {
+  position: relative;
+  color: white;
+  animation: glitch 2s linear infinite;
+}
+
+.glitch:before,
+.glitch:after {
+  content: "Добро пожаловать на мой сайт!";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.glitch:before {
+  color: #00FF7F; /* Зелёный оттенок для помех */
+  animation: glitch-top 1s linear infinite;
+  clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 33%, 0 33%);
+}
+
+.glitch:after {
+  color: #00CC66; /* Другой зелёный оттенок */
+  animation: glitch-bottom 1.5s linear infinite;
+  clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+  -webkit-clip-path: polygon(0 67%, 100% 67%, 100% 100%, 0 100%);
+}
+
+@keyframes glitch {
+  2%, 64% {
+    transform: translate(2px, 0) skew(0deg);
+  }
+  4%, 60% {
+    transform: translate(-2px, 0) skew(0deg);
+  }
+  62% {
+    transform: translate(0, 0) skew(5deg);
+  }
+}
+
+@keyframes glitch-top {
+  2%, 64% {
+    transform: translate(2px, -2px);
+  }
+  4%, 60% {
+    transform: translate(-2px, 2px);
+  }
+  62% {
+    transform: translate(13px, -1px) skew(-13deg);
+  }
+}
+
+@keyframes glitch-bottom {
+  2%, 64% {
+    transform: translate(-2px, 0);
+  }
+  4%, 60% {
+    transform: translate(-2px, 0);
+  }
+  62% {
+    transform: translate(-22px, 5px) skew(21deg);
+  }
+}
