@@ -36,7 +36,7 @@
       content.style.animation = 'glitch-background 2s linear infinite';
       buttons.forEach(btn => btn.style.animation = 'button-glitch 2s linear infinite');
       message.style.animation = 'message-glitch 2s linear infinite';
-      // Случайные яркие цвета
+      // Случайные цвета
       const randomHue = Math.random() * 360;
       content.style.color = `hsl(${randomHue}, 80%, 70%)`;
       buttons.forEach(btn => btn.style.color = `hsl(${randomHue + 60}, 80%, 70%)`);
