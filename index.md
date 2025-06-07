@@ -16,7 +16,6 @@
     <a href="https://vk.com/person10301" class="button"><i class="fab fa-vk"></i></a>
     <a href="https://4pda.to/forum/index.php?showuser=9050872" class="button">
 <svg class="custom-icon" width="44" height="44" viewBox="0 0 108 108" xmlns="http://www.w3.org/2000/svg">
-  <rect x="18" y="18" width="72" height="72" rx="12" ry="12" fill="#000000"/>
   <text x="54" y="74" font-size="48" text-anchor="middle" fill="#FFFFFF" font-family="sans-serif">�</text>
 </svg>
     </a>
