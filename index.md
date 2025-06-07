@@ -8,7 +8,7 @@
 </head>
 <body>
   <div class="content">
-    <h1 class="glitch">Добро пожаловать на мой сайт!</h1>
+    <h1 class="glitch">Person10301</h1>
     <p>Listen and enjoy <a href="https://youtube.com/@auroramusic" class="link">AURORA</a> in YouTube</p>
   </div>
   <div class="button-container">
