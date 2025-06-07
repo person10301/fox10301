@@ -7,7 +7,7 @@
 </head>
 <body>
   <div class="content">
-    <h1>Person10301</h1>
+    <h1 class="glitch">Person10301</h1>
     <p>Listen and enjoy AURORA in <a href="https://youtube.com/@auroramusic" class="link">YouTube</a>
     </p>
   </div>
