@@ -3,12 +3,13 @@
   <meta charset="UTF-8">
   <title>Мой сайт</title>
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
   <div class="content">
     <h1>Person10301</h1>
-    <p>Listen and enjoy AURORA in <a href="https://youtube.com/@auroramusic" class="link">YouTube</a></p>
+    <p>Listen and enjoy AURORA in <a href="https://youtube.com/@auroramusic" class="link">YouTube</a>
+    </p>
   </div>
   <div class="button-container">
     <a href="https://t.me/person10301" class="button"><i class="fab fa-telegram-plane"></i></a>
@@ -24,30 +25,5 @@
   <div class="ecology-message">
     <p><a href="https://news.mongabay.com/" class="link">Please, don't forget about Ecology🌍</a></p>
   </div>
-  <script>
-    function triggerGlitch() {
-      const content = document.querySelector('.content');
-      const buttons = document.querySelectorAll('.button');
-      const message = document.querySelector('.ecology-message');
-      content.style.animation = 'none';
-      buttons.forEach(btn => btn.style.animation = 'none');
-      message.style.animation = 'none';
-      content.offsetHeight; // Перезапуск анимации
-      content.style.animation = 'glitch-background 2s linear infinite';
-      buttons.forEach(btn => btn.style.animation = 'button-glitch 2s linear infinite');
-      message.style.animation = 'message-glitch 2s linear infinite';
-      // Случайные цвета
-      const randomHue = Math.random() * 360;
-      content.style.color = `hsl(${randomHue}, 80%, 70%)`;
-      buttons.forEach(btn => btn.style.color = `hsl(${randomHue + 60}, 80%, 70%)`);
-      message.style.color = `hsl(${randomHue + 120}, 80%, 70%)`;
-    }
-
-    setInterval(() => {
-      if (Math.random() > 0.05) { // 95% шанс запуска
-        triggerGlitch();
-      }
-    }, Math.random() * 1500 + 1500); // 1.5-3 секунды
-  </script>
 </body>
 </html>
