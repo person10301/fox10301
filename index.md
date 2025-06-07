@@ -7,7 +7,7 @@
 </head>
 <body>
   <div class="content">
-    <h1 class="glitch">Person10301</h1>
+    <h1>Person10301</h1>
     <p>Listen and enjoy AURORA in <a href="https://youtube.com/@auroramusic" class="link">YouTube</a>
     </p>
   </div>
@@ -25,20 +25,5 @@
   <div class="ecology-message">
     <p><a href="https://news.mongabay.com/" class="link">Please, don't forget about Ecology🌍</a></p>
   </div>
-<script>
-  function triggerGlitch() {
-    const h1 = document.querySelector('.glitch');
-    h1.style.animation = 'none';
-    h1.offsetHeight; // Перезапуск анимации
-    h1.style.animation = '';
-  }
-
-  // Запускаем эффект каждые 5-10 секунд случайным образом
-  setInterval(() => {
-    if (Math.random() > 0.3) { // 70% шанс запуска
-      triggerGlitch();
-    }
-  }, Math.random() * 5000 + 5000); // 5-10 секунд
-</script>
 </body>
 </html>
