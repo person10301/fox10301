@@ -1,5 +1,5 @@
 body {
-  background-image: url('https://raw.githubusercontent.com/person10301/fox10301/refs/heads/main/images/background.jpg');
+  background-image: url('https://images/background.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -11,8 +11,6 @@ body {
   align-items: center;
   color: white;
   font-family: Arial, sans-serif;
-  overflow: hidden;
-  position: relative;
 }
 
 .content {
@@ -25,57 +23,46 @@ body {
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
-  position: relative;
-  animation: glitch-background 2s linear infinite;
 }
 
 h1, p {
   margin: 10px 0;
-  position: relative;
 }
 
 .button-container {
   display: flex;
   justify-content: center;
-  gap: 15px;
-  margin-top: 20px;
+  gap: 15px; /* Отступ между кнопками */
+  margin-top: 20px; /* Отступ от .content */
 }
 
 .button {
-  background: rgba(0, 0, 0, 0.5);
-  backdrop-filter: blur(10px);
-  border-radius: 10px;
-  width: 60px;
-  height: 60px;
+  background: rgba(0, 0, 0, 0.5); /* Полупрозрачный фон */
+  backdrop-filter: blur(10px); /* Размытие */
+  border-radius: 10px; /* Круглые кнопки */
+  width: 60px; /* Размер кнопки */
+  height: 60px; /* Размер кнопки */
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
-  font-size: 24px;
-  text-decoration: none;
-  transition: background 0.3s;
-  position: relative;
-  animation: button-glitch 2s linear infinite;
+  color: white; /* Цвет иконки */
+  font-size: 24px; /* Размер иконки */
+  text-decoration: none; /* Убирает подчеркивание */
+  transition: background 0.3s; /* Плавное изменение фона */
 }
 
 .button:hover {
-  background: rgba(0, 0, 0, 0.7);
-}
-
-.custom-icon {
-  width: 44px;
-  height: 44px;
-  fill: currentColor;
+  background: rgba(0, 0, 0, 0.7); /* Темнее при наведении */
 }
 
 .link {
-  color: #00FF7F;
+  color: #00FF7F; /* Светлый изумрудный для кликабельного текста */
   text-decoration: underline;
   transition: color 0.3s;
 }
 
 .link:hover {
-  color: #00CC66;
+  color: #00CC66; /* Тёмнее при наведении */
   text-decoration: none;
 }
 
@@ -89,145 +76,8 @@ h1, p {
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
-  position: relative;
-  animation: message-glitch 2s linear infinite;
 }
 
 .ecology-message p {
   margin: 0;
 }
-
-/* Глобальные линии для хаоса */
-body:before,
-body:after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  pointer-events: none;
-  animation: glitch-lines 3s linear infinite;
-}
-
-body:before {
-  background: linear-gradient(90deg, rgba(255, 105, 180, 0.5), rgba(255, 215, 0, 0.5), rgba(0, 191, 255, 0.5));
-  animation-delay: 0.1s;
-}
-
-body:after {
-  background: linear-gradient(-90deg, rgba(144, 238, 144, 0.5), rgba(255, 165, 0, 0.5), rgba(186, 85, 211, 0.5));
-  animation-delay: 0.3s;
-}
-
-/* Эффекты глитча с боковым смещением */
-.content:before,
-.content:after {
-  content: "";
-  position: absolute;
-  top: -20px;
-  left: -20px;
-  width: 140%;
-  height: 140%;
-  background: inherit;
-  z-index: -1;
-  animation: glitch-layer 1.5s linear infinite;
-}
-
-.content:before {
-  clip-path: polygon(0 0, 70% 0, 70% 100%, 0 100%);
-  animation-delay: 0.2s;
-  background: rgba(255, 105, 180, 0.6); /* Розовый */
-}
-
-.content:after {
-  clip-path: polygon(30% 0, 100% 0, 100% 100%, 30% 100%);
-  animation-delay: 0.4s;
-  background: rgba(255, 215, 0, 0.6); /* Жёлтый */
-}
-
-@keyframes glitch-background {
-  2%, 64% {
-    transform: translateX(-50px) skewX(20deg) scale(1.02);
-    filter: hue-rotate(40deg) blur(2px);
-  }
-  4%, 60% {
-    transform: translateX(50px) skewX(-20deg) scale(0.98);
-    filter: hue-rotate(-40deg) blur(3px);
-  }
-  62% {
-    transform: translateX(-60px) skewX(25deg) scale(1.05);
-    filter: hue-rotate(50deg) blur(2px);
-  }
-}
-
-@keyframes button-glitch {
-  2%, 64% {
-    transform: translateX(-30px) rotate(5deg) scale(1.1);
-    filter: hue-rotate(30deg);
-  }
-  4%, 60% {
-    transform: translateX(30px) rotate(-5deg) scale(0.9);
-    filter: hue-rotate(-30deg);
-  }
-  62% {
-    transform: translateX(-40px) rotate(10deg) scale(1.2);
-    filter: hue-rotate(40deg);
-  }
-}
-
-@keyframes message-glitch {
-  2%, 64% {
-    transform: translateX(40px) skewX(-15deg) scale(1.03);
-    filter: hue-rotate(20deg);
-  }
-  4%, 60% {
-    transform: translateX(-40px) skewX(15deg) scale(0.97);
-    filter: hue-rotate(-20deg);
-  }
-  62% {
-    transform: translateX(50px) skewX(-20deg) scale(1.06);
-    filter: hue-rotate(30deg);
-  }
-}
-
-@keyframes glitch-lines {
-  0% {
-    transform: translateX(0) rotate(0deg);
-    opacity: 0.8;
-  }
-  20% {
-    transform: translateX(-100px) rotate(10deg);
-    opacity: 0.6;
-  }
-  40% {
-    transform: translateX(100px) rotate(-10deg);
-    opacity: 0.7;
-  }
-  60% {
-    transform: translateX(-80px) rotate(15deg);
-    opacity: 0.5;
-  }
-  80% {
-    transform: translateX(80px) rotate(-15deg);
-    opacity: 0.9;
-  }
-  100% {
-    transform: translateX(0) rotate(0deg);
-    opacity: 0.8;
-  }
-}
-
-@keyframes glitch-layer {
-  2%, 64% {
-    transform: translateX(-40px) scale(1.04);
-    filter: blur(3px);
-  }
-  4%, 60% {
-    transform: translateX(40px) scale(0.96);
-    filter: blur(4px);
-  }
-  62% {
-    transform: translateX(-50px) scale(1.07);
-    filter: blur(5px);
-  }
-                          }
