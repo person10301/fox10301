@@ -91,7 +91,7 @@ h1, p {
 
 .glitch:before,
 .glitch:after {
-  content: "Добро пожаловать на мой сайт!";
+  content: "Error";
   position: absolute;
   top: 0;
   left: 0;
