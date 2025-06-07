@@ -15,9 +15,9 @@
     <a href="https://t.me/person10301" class="button"><i class="fab fa-telegram-plane"></i></a>
     <a href="https://vk.com/person10301" class="button"><i class="fab fa-vk"></i></a>
     <a href="https://4pda.to/forum/index.php?showuser=9050872" class="button">
-      <svg class="custom-icon" width="44" height="44" viewBox="0 0 108 108" xmlns="http://www.w3.org/2000/svg">
-  <circle cx="54" cy="54" r="29" fill="#FFFFFF" />
-  <text x="54" y="60" font-family="Arial, sans-serif" font-size="36" fill="#000000" text-anchor="middle" dominant-baseline="middle">&#65533;</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <rect x="2" y="2" width="60" height="60" rx="8" ry="8" fill="#fff" stroke="#000" stroke-width="4"/>
+  <text x="32" y="44" font-size="36" text-anchor="middle" fill="#000" font-family="sans-serif">�</text>
 </svg>
     </a>
     <a href="https://github.com/person10301" class="button"><i class="fab fa-github"></i></a>
