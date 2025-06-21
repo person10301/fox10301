@@ -12,7 +12,7 @@
     </p>
   </div>
   <div class="content">
-    <title>Telegram/VK/4PDA/GitHub<title>
+<title>Telegram/VK/4PDA/GitHub<title>
     <p>Username: @person10301
     </p>
   </div>
