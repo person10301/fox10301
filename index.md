@@ -10,12 +10,7 @@
     <h1>Person10301</h1>
     <p>Listen and enjoy AURORA in <a href="https://youtube.com/@auroramusic" class="link">YouTube</a>
     </p>
-  </div>
-    <div class="content">
-    <h1>Telegram/VK/4PDA/GitHub</h1>
-    <p>Username: @person10301
-    </p>
-  </div>
+<div>
   <div class="ecology-message">
     <p><a href="https://news.mongabay.com/" class="link">Please, don't forget about Ecology🌍</a></p>
   </div>
