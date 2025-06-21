@@ -7,13 +7,13 @@
 </head>
 <body>
   <div class="content">
-    <h1>Person10301</h1>
-    <p>Listen and enjoy AURORA in <a href="https://youtube.com/@auroramusic" class="link">YouTube</a>
+    <h1>Telegram/VK/4PDA/GitHub</h1>
+    <p>Username: @person10301
     </p>
   </div>
   <div class="content">
-<title>Telegram/VK/4PDA/GitHub<title>
-    <p>Username: @person10301
+    <h1>Person10301</h1>
+    <p>Listen and enjoy AURORA in <a href="https://youtube.com/@auroramusic" class="link">YouTube</a>
     </p>
   </div>
   <div class="ecology-message">
