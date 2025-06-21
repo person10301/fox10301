@@ -12,7 +12,8 @@
     </p>
   </div>
   <div class="content">
-    <p>Telegram/VK/4PDA/GitHub - @person10301
+    <title>Telegram/VK/4PDA/GitHub<title>
+    <p>Username: @person10301
     </p>
   </div>
   <div class="ecology-message">
