@@ -1,5 +1,4 @@
 title: fox10301          # Название сайта (используется в <title>)
-description: Мой сайт     # Описание (можно отобразить где-то)
 url: "https://person10301.github.io"  # Базовый URL
 
 markdown: kramdown       # Рендеринг markdown
