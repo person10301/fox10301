@@ -1,25 +1,34 @@
-<html lang="ru">
-  <head>
-  <meta charset="UTF-8">
-  <link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-</head>
-<body>
+<div class="main-window">  <!-- Новый общий контейнер -->
   <div class="content">
     <h1>Person10301</h1>
-    <p>Listen and enjoy AURORA in <a href="https://youtube.com/@auroramusic" class="link">YouTube</a>
-    </p>
+    <p>Listen and enjoy AURORA in <a href="https://youtube.com/@auroramusic" class="link">YouTube</a></p>
+  </div>
+  
   <div class="button-container">
-    <a href="https://t.me/person10301" class="button"><i class="fab fa-telegram-plane"></i></a>
-    <a href="https://vk.com/person10301" class="button"><i class="fab fa-vk"></i></a>
-    <a href="https://4pda.to/forum/index.php?showuser=9050872" class="button">
-      <svg class="custom-icon" width="44" height="44" viewBox="0 0 108 108" xmlns="http://www.w3.org/2000/svg">
-        <path fill="#FFFFFF" d="m54 25a29 29 0 1 0 29 29 29 29 0 0 0-29-29zm13.69 45.92h-11.69l-.08-6.4h-20.45v-10l15.33-17.44h16.89z"/>
-        <path fill="#FFFFFF" d="m47.16 56.6 8.59.01v-9.56z"/>
+    <a href="https://t.me/person10301" class="button">
+      <svg class="custom-icon" width="24" height="24" viewBox="0 0 496 512" xmlns="http://www.w3.org/2000/svg">
+        <path fill="currentColor" d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm121.8 169.9l-40.7 191.8c-3.2 15.1-17.7 24.4-32.9 21.2l-87.8-25.7c-8.9-2.6-13.7-11.3-11.1-20.1l15.3-107.8c1.4-9.8 9.7-16.5 19.2-15.7l66.2 8.7c11.9 1.6 20.3-9.6 15.4-19.7L339 217c-3-7.3-13.4-10.8-21.7-7.5L164.7 254.1c-12.3 4-21.1 15.5-18.6 28.6l14.1 82.3c2.1 12.3 13.5 20.6 25.8 17.5l66.3-19.4c8.9-2.6 13.7-11.3 11.1-20.1l-15.3-107.8c-1.4-9.8-9.7-16.5-19.2-15.7l-66.2-8.7c-11.9-1.6-20.3 9.6-15.4 19.7l50.1 100.5c3 7.3 13.4 10.8 21.7 7.5l110.9-41.1c12.3-4.6 15.6-17.7 7.6-27.7l-135.1-99.5c-7.9-5.8-15.7-4.1-21.6 4.2z"/>
       </svg>
     </a>
-    <a href="https://github.com/person10301" class="button"><i class="fab fa-github"></i></a>
+    <a href="https://vk.com/person10301" class="button">
+      <svg class="custom-icon" width="24" height="24" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+        <path fill="currentColor" d="M207.8 20.3c-22.5-9.4-47.5-9.4-70 0C98.9 38.5 77.1 66.9 60.1 99.7c-17 32.8-22.3 70.1-22.3 109.2s5.3 76.4 22.3 109.2c17 32.8 38.8 61.2 64.9 79.4c22.5 9.4 47.5 9.4 70 0c26.1-18.2 47.9-46.6 64.9-79.4c17-32.8 22.3-70.1 22.3-109.2s-5.3-76.4-22.3-109.2c-17-32.8-38.8-61.2-64.9-79.4zM256 256c0 17.7-14.3 32-32 32s-32-14.3-32-32s14.3-32 32-32s32 14.3 32 32z"/>
+      </svg>
+    </a>
+    <a href="https://4pda.to/forum/index.php?showuser=9050872" class="button">
+      <svg class="custom-icon" width="24" height="24" viewBox="0 0 108 108" xmlns="http://www.w3.org/2000/svg">
+        <path fill="currentColor" d="m54 25a29 29 0 1 0 29 29 29 29 0 0 0-29-29zm13.69 45.92h-11.69l-.08-6.4h-20.45v-10l15.33-17.44h16.89z"/>
+        <path fill="currentColor" d="m47.16 56.6 8.59.01v-9.56z"/>
+      </svg>
+    </a>
+    <a href="https://github.com/person10301" class="button">
+      <svg class="custom-icon" width="24" height="24" viewBox="0 0 496 512" xmlns="http://www.w3.org/2000/svg">
+        <path fill="currentColor" d="M165.9 397.9c0 2-2.3 3.6-5.2 3.6-1.3 0-2.6-.3-3.8-1-1.2-.7-2.1-1.8-2.5-3.1-.4-1.3-.4-3.4.1-4.8 1.8-5.3 5.8-9.9 11.8-13.7 1.5-.8 3.1-1.5 4.7-2.1 1.6-.6 3.2-1 4.8-1.1 1.6-.1 3.2.1 4.8 1 1.6.9 3.2 2.1 4.8 3.6 1.6 1.5 3.2 3.2 4.8 5.1 1.6 1.9 3.2 4 4.8 6.3 1.6 2.3 3.2 4.7 4.8 7.1zM98.7 397.9c0 2-2.3 3.6-5.2 3.6-1.3 0-2.6-.3-3.8-1-1.2-.7-2.1-1.8-2.5-3.1-.4-1.3-.4-3.4.1-4.8 1.8-5.3 5.8-9.9 11.8-13.7 1.5-.8 3.1-1.5 4.7-2.1 1.6-.6 3.2-1 4.8-1.1 1.6-.1 3.2.1 4.8 1 1.6.9 3.2 2.1 4.8 3.6 1.6 1.5 3.2 3.2 4.8 5.1 1.6 1.9 3.2 4 4.8 6.3 1.6 2.3 3.2 4.7 4.8 7.1zM248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm121.8 169.9l-40.7 191.8c-3.2 15.1-17.7 24.4-32.9 21.2l-87.8-25.7c-8.9-2.6-13.7-11.3-11.1-20.1l15.3-107.8c1.4-9.8 9.7-16.5 19.2-15.7l66.2 8.7c11.9 1.6 20.3-9.6 15.4-19.7L339 217c-3-7.3-13.4-10.8-21.7-7.5L164.7 254.1c-12.3 4-21.1 15.5-18.6 28.6l14.1 82.3c2.1 12.3 13.5 20.6 25.8 17.5l66.3-19.4c8.9-2.6 13.7-11.3 11.1-20.1l-15.3-107.8c-1.4-9.8-9.7-16.5-19.2-15.7l-66.2-8.7c-11.9-1.6-20.3 9.6-15.4 19.7l50.1 100.5c3 7.3 13.4 10.8 21.7 7.5l110.9-41.1c12.3-4.6 15.6-17.7 7.6-27.7l-135.1-99.5c-7.9-5.8-15.7-4.1-21.6 4.2z"/>
+      </svg>
+    </a>
+  </div>
+  
+  <div class="ecology-message">
     <p><a href="https://news.mongabay.com/" class="link">Please, don't forget about Ecology🌍</a></p>
   </div>
-</body>
-</html>
+</div>
