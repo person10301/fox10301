@@ -9,7 +9,7 @@
     <h1>Person10301</h1>
     <p>Listen and enjoy AURORA in <a href="https://youtube.com/@auroramusic" class="link">YouTube</a>
     </p>
-class="button-container">
+  <div class="button-container">
     <a href="https://t.me/person10301" class="button"><i class="fab fa-telegram-plane"></i></a>
     <a href="https://vk.com/person10301" class="button"><i class="fab fa-vk"></i></a>
     <a href="https://4pda.to/forum/index.php?showuser=9050872" class="button">
