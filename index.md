@@ -22,7 +22,7 @@
     <a href="https://github.com/person10301" class="button"><i class="fab fa-github"></i></a>
   </div>
   <div class="ecology-message">
-    <p><a href="https://news.mongabay.com/" class="link">Please, don't forget about Ecology🌍</a></p>
+    <p><a href="https://www.theguardian.com/uk/environment" class="link">Please, don't forget about Ecology🌍</a></p>
   </div>
 </body>
 </html>
